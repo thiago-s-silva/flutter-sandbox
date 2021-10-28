@@ -1,13 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_sandbox/home.dart';
 
 void main() {
-  runApp(MaterialApp(
+  runApp(const MaterialApp(
     title: 'Flutter Sandbox',
-    home: Scaffold(
-      appBar: AppBar(
-        title: const Text('Flutter Sandbox'),
-      ),
-      body: Container(),
-    ),
+    home: Home(),
+    debugShowCheckedModeBanner: false,
   ));
 }
